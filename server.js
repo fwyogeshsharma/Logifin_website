@@ -3,6 +3,7 @@
 const express = require("express");
 const path = require("path");
 const layout = require("./components/layout");
+const routes = require("./routes");
 
 const app = express();
 
@@ -13,14 +14,6 @@ app.use(express.static(path.join(__dirname, "public")));
 // A page module exports { title, description, render() } — render()
 // returns the page's body markup as a string. The layout wraps it
 // with the shared <head>, nav, and footer.
-const routes = [
-  { path: "/", page: "index" },
-  { path: "/how-it-works", page: "how-it-works" },
-  { path: "/shippers", page: "shippers" },
-  { path: "/fleets", page: "fleets" },
-  { path: "/lenders", page: "lenders" },
-  { path: "/about", page: "about" },
-];
 
 for (const { path: routePath, page } of routes) {
   const mod = require(`./pages/${page}`);

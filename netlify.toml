@@ -1,0 +1,33 @@
+# Netlify configuration for the LogiFin marketing site.
+# The site is prerendered to static HTML by `npm run build` (build.js),
+# so Netlify just serves the files in dist/ — no server runtime needed.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Long-cache the fingerprint-free static assets. They're small and change
+# rarely; the HTML that references them is always revalidated (below).
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# HTML is rendered at build time; always revalidate so deploys go live.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
