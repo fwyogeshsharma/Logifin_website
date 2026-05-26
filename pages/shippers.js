@@ -1,0 +1,165 @@
+"use strict";
+
+module.exports = {
+  title: "For load providers — LogiFin",
+  description:
+    "Keep your net terms. Pay your carriers on time. A vetted carrier network and one dashboard for every shipment.",
+  render() {
+    return `
+<!-- HERO -->
+<section class="section bg-soft" style="padding-top: 72px; padding-bottom: 80px;" data-screen-label="01 Hero">
+  <div class="wrap">
+    <div style="display:grid; grid-template-columns: 1.05fr 0.95fr; gap: 64px; align-items: center;" class="hero-grid">
+      <div>
+        <span class="chip chip--accent" style="margin-bottom: 22px;">For load providers</span>
+        <h1 class="h-display h-display-xl">
+          Keep your terms.<br/>
+          <span style="color: var(--accent);">Keep your carriers.</span>
+        </h1>
+        <p class="lede" style="margin-top: 28px; font-size: 19px;">
+          Pay invoices on net 30/60/90 the way your finance team prefers — while your carriers get paid in 24 hours. The best of both, without strain on either side.
+        </p>
+        <div style="display:flex; gap:12px; margin-top: 36px; flex-wrap: wrap;">
+          <a href="https://lf.rollingradius.com/" class="btn btn--accent btn--lg">Get started
+            <span class="btn-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          </a>
+          <a href="/how-it-works" class="btn btn--ghost btn--lg">See how it works</a>
+        </div>
+      </div>
+
+      <div class="card" style="padding: 28px; box-shadow: var(--shadow-lg);">
+        <div style="display:flex; justify-content:space-between; align-items: flex-start; margin-bottom: 24px;">
+          <div>
+            <div class="text-mono text-muted" style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;">This month</div>
+            <div class="h-display h-display-md" style="margin-top: 6px;">Outstanding payables</div>
+          </div>
+          <span class="chip chip--success chip--dot">On schedule</span>
+        </div>
+
+        <div class="stat-num" style="font-size: 48px;">₹38.4L</div>
+        <div class="text-mono text-muted" style="font-size: 12px; margin-top: 6px;">across 47 invoices · avg tenor 52 days</div>
+
+        <div style="height: 1px; background: var(--line); margin: 24px 0;"></div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size: 13.5px;">Pawar Roadlines</span>
+            <span class="text-mono" style="font-size: 13px;">₹12,40,000 · due 38d</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size: 13.5px;">Singh Cargo Movers</span>
+            <span class="text-mono" style="font-size: 13px;">₹8,15,000 · due 22d</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size: 13.5px;">Khanna Transport</span>
+            <span class="text-mono" style="font-size: 13px;">₹6,82,000 · due 14d</span>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size: 13.5px;">Greenfield Carriers</span>
+            <span class="text-mono" style="font-size: 13px;">₹4,98,000 · due 9d</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUE PROPS -->
+<section class="section" data-screen-label="02 Value props">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">For shippers</span>
+      <h2 class="h-display h-display-lg">Designed for your finance team,<br/>loved by your carriers.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;" class="vp-grid reveal">
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center; margin-bottom: 24px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Net terms, your way</h3>
+        <p class="text-muted" style="font-size: 14.5px; line-height: 1.6;">Pay 30, 60, or 90 days — whatever matches your working capital cycle. LogiFin handles the upfront payment to your carrier on your behalf.</p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center; margin-bottom: 24px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Vetted carrier network</h3>
+        <p class="text-muted" style="font-size: 14.5px; line-height: 1.6;">9,400+ verified vehicle providers across 14 states. Filter by route, vehicle class, rating, or your existing partners.</p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center; margin-bottom: 24px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="margin-bottom: 12px;">One dashboard, every invoice</h3>
+        <p class="text-muted" style="font-size: 14.5px; line-height: 1.6;">Approvals, GST reconciliation, e-way bills, payment schedules — all in one view. Export to Tally, Zoho, SAP.</p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center; margin-bottom: 24px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="margin-bottom: 12px;">No disputes, no delays</h3>
+        <p class="text-muted" style="font-size: 14.5px; line-height: 1.6;">Carriers are paid through LogiFin escrow, not chased through follow-ups. Disputes drop to near-zero.</p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center; margin-bottom: 24px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 11V7a4 4 0 0 0-8 0v4"/><rect x="3" y="11" width="18" height="11" rx="2"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Off your balance sheet</h3>
+        <p class="text-muted" style="font-size: 14.5px; line-height: 1.6;">The advance sits on LogiFin and the lender's books — not yours. Improve your DPO without lengthening your DSO.</p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center; margin-bottom: 24px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Better carrier loyalty</h3>
+        <p class="text-muted" style="font-size: 14.5px; line-height: 1.6;">When carriers get paid fast through you, they prioritize your loads first. Capacity in tight markets goes to the shippers who don't make them wait.</p>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @media (max-width: 960px) { .vp-grid { grid-template-columns: 1fr 1fr !important; } }
+    @media (max-width: 640px) { .vp-grid { grid-template-columns: 1fr !important; } }
+  </style>
+</section>
+
+<!-- METRIC HIGHLIGHT -->
+<section class="section bg-deep" data-screen-label="03 Metrics">
+  <div class="wrap">
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; text-align: center;" class="metric-grid">
+      <div>
+        <div class="stat-num" style="font-size: 88px; color: #fff;">2.4×</div>
+        <div class="text-mono" style="margin-top: 14px; color: var(--accent-dim); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;">Carrier retention vs. avg</div>
+      </div>
+      <div>
+        <div class="stat-num" style="font-size: 88px; color: #fff;">0</div>
+        <div class="text-mono" style="margin-top: 14px; color: var(--accent-dim); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;">Impact on your balance sheet</div>
+      </div>
+      <div>
+        <div class="stat-num" style="font-size: 88px; color: #fff;">73<span style="font-size: 0.5em;">%</span></div>
+        <div class="text-mono" style="margin-top: 14px; color: var(--accent-dim); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;">Fewer payment escalations</div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @media (max-width: 720px) { .metric-grid { grid-template-columns: 1fr !important; gap: 40px !important; } }
+    @media (max-width: 960px) { .hero-grid { grid-template-columns: 1fr !important; gap: 56px !important; } }
+  </style>
+</section>
+
+<!-- CTA -->
+<section class="section" data-screen-label="04 CTA">
+  <div class="wrap" style="text-align: center; max-width: 700px;">
+    <h2 class="h-display h-display-lg" style="margin-bottom: 24px;">Treat your carriers right.<br/>Without changing your terms.</h2>
+    <p class="lede lede--center" style="margin-bottom: 36px;">Onboarding takes 15 minutes. First trip can be posted the same day.</p>
+    <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="https://lf.rollingradius.com/" class="btn btn--accent btn--lg">Get started</a>
+      <a href="#" class="btn btn--ghost btn--lg">Talk to sales</a>
+    </div>
+  </div>
+</section>
+`;
+  },
+};

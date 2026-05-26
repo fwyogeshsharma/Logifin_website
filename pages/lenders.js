@@ -1,0 +1,262 @@
+"use strict";
+
+module.exports = {
+  title: "For lenders — LogiFin",
+  description:
+    "Deploy capital into vetted short-tenor trade receivables. 8–12% net annualized returns, fully underwritten.",
+  render() {
+    return `
+<!-- HERO -->
+<section class="section bg-soft" style="padding-top: 72px; padding-bottom: 80px;" data-screen-label="01 Hero">
+  <div class="wrap">
+    <div style="display:grid; grid-template-columns: 1.05fr 0.95fr; gap: 64px; align-items: center;" class="hero-grid">
+      <div>
+        <span class="chip chip--accent" style="margin-bottom: 22px;">For lenders &amp; institutions</span>
+        <h1 class="h-display h-display-xl">
+          Short-tenor yield,<br/>
+          <span style="color: var(--accent);">backed by freight.</span>
+        </h1>
+        <p class="lede" style="margin-top: 28px; font-size: 19px;">
+          Deploy capital into vetted, 30–90 day trade receivables backed by real GPS-verified shipments. Net returns of <strong style="color:var(--ink); font-weight:500;">8–12% annualized</strong>, full pool transparency, and pool-level loss provisioning.
+        </p>
+        <div style="display:flex; gap:12px; margin-top: 36px; flex-wrap: wrap;">
+          <a href="#" class="btn btn--accent btn--lg">Talk to capital markets</a>
+          <a href="#" class="btn btn--ghost btn--lg">Download deck (PDF)</a>
+        </div>
+      </div>
+
+      <!-- Portfolio dashboard mock -->
+      <div class="card" style="padding: 28px; box-shadow: var(--shadow-lg);">
+        <div style="display:flex; justify-content:space-between; align-items: flex-start; margin-bottom: 24px;">
+          <div>
+            <div class="text-mono text-muted" style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;">Portfolio · NorthEdge Cap</div>
+            <div class="h-display h-display-md" style="margin-top: 6px;">Q2 2026</div>
+          </div>
+          <span class="chip chip--success chip--dot">All systems</span>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
+          <div style="padding: 16px; background: var(--bg-2); border-radius: 12px;">
+            <div class="stat-label" style="margin-top:0;">Deployed</div>
+            <div class="text-mono" style="font-size: 24px; margin-top: 6px; font-weight: 500;">₹6.4Cr</div>
+          </div>
+          <div style="padding: 16px; background: var(--bg-2); border-radius: 12px;">
+            <div class="stat-label" style="margin-top:0;">Net yield (YTD)</div>
+            <div class="text-mono" style="font-size: 24px; margin-top: 6px; font-weight: 500; color: var(--success);">+10.8%</div>
+          </div>
+          <div style="padding: 16px; background: var(--bg-2); border-radius: 12px;">
+            <div class="stat-label" style="margin-top:0;">Active positions</div>
+            <div class="text-mono" style="font-size: 24px; margin-top: 6px; font-weight: 500;">214</div>
+          </div>
+          <div style="padding: 16px; background: var(--bg-2); border-radius: 12px;">
+            <div class="stat-label" style="margin-top:0;">Avg tenor</div>
+            <div class="text-mono" style="font-size: 24px; margin-top: 6px; font-weight: 500;">41d</div>
+          </div>
+        </div>
+
+        <!-- mini concentration bars -->
+        <div class="stat-label" style="margin-bottom: 12px;">Top corridor exposure</div>
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <div style="display:grid; grid-template-columns: 130px 1fr 50px; gap: 12px; align-items:center; font-size: 12.5px;">
+            <span>Mumbai → Hyd</span>
+            <div style="height: 6px; background: var(--bg-2); border-radius: 999px; overflow: hidden;"><div style="width: 32%; height:100%; background: var(--accent);"></div></div>
+            <span class="text-mono text-muted">3.2%</span>
+          </div>
+          <div style="display:grid; grid-template-columns: 130px 1fr 50px; gap: 12px; align-items:center; font-size: 12.5px;">
+            <span>Delhi → Lucknow</span>
+            <div style="height: 6px; background: var(--bg-2); border-radius: 999px; overflow: hidden;"><div style="width: 27%; height:100%; background: var(--accent);"></div></div>
+            <span class="text-mono text-muted">2.7%</span>
+          </div>
+          <div style="display:grid; grid-template-columns: 130px 1fr 50px; gap: 12px; align-items:center; font-size: 12.5px;">
+            <span>Chennai → Blr</span>
+            <div style="height: 6px; background: var(--bg-2); border-radius: 999px; overflow: hidden;"><div style="width: 22%; height:100%; background: var(--accent);"></div></div>
+            <span class="text-mono text-muted">2.2%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THESIS -->
+<section class="section" data-screen-label="02 Thesis">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">The asset class</span>
+      <h2 class="h-display h-display-lg">An asset class hiding<br/>in plain sight.</h2>
+      <p class="lede lede--center" style="margin-top: 24px;">
+        Indian road freight is a ₹9.6 lakh crore market built on broken payment cycles. Working capital sits in invoices for 45–90 days, locked away from the trucks that need it. LogiFin makes those receivables investable, at scale.
+      </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 1080px; margin: 0 auto;" class="thesis-grid reveal">
+      <div class="card" style="padding: 28px;">
+        <div class="stat-num" style="font-size: 44px; color: var(--accent);">₹9.6L<span style="font-size: 0.55em;">Cr</span></div>
+        <div class="text-mono text-muted" style="margin-top: 12px; font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase;">Annual freight spend</div>
+      </div>
+      <div class="card" style="padding: 28px;">
+        <div class="stat-num" style="font-size: 44px; color: var(--accent);">~60d</div>
+        <div class="text-mono text-muted" style="margin-top: 12px; font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase;">Avg payment cycle</div>
+      </div>
+      <div class="card" style="padding: 28px;">
+        <div class="stat-num" style="font-size: 44px; color: var(--accent);">8M+</div>
+        <div class="text-mono text-muted" style="margin-top: 12px; font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase;">Commercial vehicles</div>
+      </div>
+      <div class="card" style="padding: 28px;">
+        <div class="stat-num" style="font-size: 44px; color: var(--accent);">&lt;3<span style="font-size: 0.55em;">%</span></div>
+        <div class="text-mono text-muted" style="margin-top: 12px; font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase;">Currently financed digitally</div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 880px) { .thesis-grid { grid-template-columns: 1fr 1fr !important; } }
+    </style>
+  </div>
+</section>
+
+<!-- RETURN PROFILE -->
+<section class="section bg-tint" style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);" data-screen-label="03 Returns">
+  <div class="wrap">
+    <div style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; align-items: center;" class="ret-grid">
+      <div class="reveal">
+        <span class="eyebrow">Return profile</span>
+        <h2 class="h-display h-display-lg" style="margin-top: 12px;">Yield without<br/>the duration risk.</h2>
+        <p class="lede" style="margin-top: 22px;">
+          Receivables turn over every 30–90 days. Capital recycles fast, exposure stays current, and you can scale up or wind down a position quickly.
+        </p>
+      </div>
+
+      <div class="reveal card" style="padding: 32px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+          <span style="font-size: 14.5px;">Net annualized return</span>
+          <span class="text-mono" style="font-size: 14.5px; font-weight: 500;">8 – 12%</span>
+        </div>
+        <div class="divider" style="margin: 16px 0;"></div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+          <span style="font-size: 14.5px;">Average tenor</span>
+          <span class="text-mono" style="font-size: 14.5px; font-weight: 500;">30 – 90 days</span>
+        </div>
+        <div class="divider" style="margin: 16px 0;"></div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+          <span style="font-size: 14.5px;">Minimum allocation</span>
+          <span class="text-mono" style="font-size: 14.5px; font-weight: 500;">₹50L</span>
+        </div>
+        <div class="divider" style="margin: 16px 0;"></div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+          <span style="font-size: 14.5px;">Net default rate (LTD)</span>
+          <span class="text-mono" style="font-size: 14.5px; font-weight: 500; color: var(--success);">0.41%</span>
+        </div>
+        <div class="divider" style="margin: 16px 0;"></div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+          <span style="font-size: 14.5px;">FLDG cover</span>
+          <span class="text-mono" style="font-size: 14.5px; font-weight: 500;">5% pool, top-up</span>
+        </div>
+        <div class="divider" style="margin: 16px 0;"></div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span style="font-size: 14.5px;">Concentration cap</span>
+          <span class="text-mono" style="font-size: 14.5px; font-weight: 500;">4% per shipper</span>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 960px) {
+        .ret-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+        .hero-grid { grid-template-columns: 1fr !important; gap: 56px !important; }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- HOW WE UNDERWRITE -->
+<section class="section bg-deep" data-screen-label="04 Underwriting">
+  <div class="wrap">
+    <div style="display: grid; grid-template-columns: 1fr 1.3fr; gap: 80px; align-items: start;" class="uw-grid">
+      <div class="reveal">
+        <span class="eyebrow" style="color: var(--accent-dim);">Underwriting</span>
+        <h2 class="h-display h-display-lg" style="color:#fff; margin-top: 12px;">Four layers<br/>between you and a default.</h2>
+      </div>
+
+      <div class="reveal" style="display: flex; flex-direction: column; gap: 12px;">
+        <div class="card" style="padding: 24px 28px;">
+          <div style="display:flex; align-items:baseline; gap: 12px; margin-bottom: 6px;">
+            <span class="text-mono" style="font-size: 12px; color: var(--accent-dim); letter-spacing: 0.1em;">01</span>
+            <h4 class="h-display h-display-sm" style="color:#fff;">Counterparty data</h4>
+          </div>
+          <p style="color: rgba(255,255,255,0.65); font-size: 14px; padding-left: 28px;">GSTN, MCA, bank statements, prior history on LogiFin — all pulled in real time.</p>
+        </div>
+        <div class="card" style="padding: 24px 28px;">
+          <div style="display:flex; align-items:baseline; gap: 12px; margin-bottom: 6px;">
+            <span class="text-mono" style="font-size: 12px; color: var(--accent-dim); letter-spacing: 0.1em;">02</span>
+            <h4 class="h-display h-display-sm" style="color:#fff;">Transaction proof</h4>
+          </div>
+          <p style="color: rgba(255,255,255,0.65); font-size: 14px; padding-left: 28px;">E-way bill validation, FASTag pings, GPS handshake, POD photos. No invoice gets funded without a verified shipment behind it.</p>
+        </div>
+        <div class="card" style="padding: 24px 28px;">
+          <div style="display:flex; align-items:baseline; gap: 12px; margin-bottom: 6px;">
+            <span class="text-mono" style="font-size: 12px; color: var(--accent-dim); letter-spacing: 0.1em;">03</span>
+            <h4 class="h-display h-display-sm" style="color:#fff;">Pool diversification</h4>
+          </div>
+          <p style="color: rgba(255,255,255,0.65); font-size: 14px; padding-left: 28px;">Limits per shipper (max 4%), per state (max 18%), per industry — enforced before disbursal, monitored daily.</p>
+        </div>
+        <div class="card" style="padding: 24px 28px;">
+          <div style="display:flex; align-items:baseline; gap: 12px; margin-bottom: 6px;">
+            <span class="text-mono" style="font-size: 12px; color: var(--accent-dim); letter-spacing: 0.1em;">04</span>
+            <h4 class="h-display h-display-sm" style="color:#fff;">Loss buffer</h4>
+          </div>
+          <p style="color: rgba(255,255,255,0.65); font-size: 14px; padding-left: 28px;">5% pool-level FLDG, top-up reserves from origination fees, arbitration-led recovery partnerships.</p>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 960px) {
+        .uw-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- INVESTOR TYPES -->
+<section class="section" data-screen-label="05 Who lends">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Who lends with us</span>
+      <h2 class="h-display h-display-lg">Built for institutional capital.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;" class="lender-grid reveal">
+      <div class="card" style="padding: 28px;">
+        <h3 class="h-display h-display-sm" style="margin-bottom: 10px;">NBFCs</h3>
+        <p class="text-muted" style="font-size: 14px; line-height: 1.55;">Pool participation as a co-lender or as primary capital. RBI-compliant structures, monthly NACH settlements.</p>
+      </div>
+      <div class="card" style="padding: 28px;">
+        <h3 class="h-display h-display-sm" style="margin-bottom: 10px;">Family offices &amp; UHNIs</h3>
+        <p class="text-muted" style="font-size: 14px; line-height: 1.55;">Minimum ₹50L allocation. Direct exposure to vetted receivables with monthly portfolio reporting.</p>
+      </div>
+      <div class="card" style="padding: 28px;">
+        <h3 class="h-display h-display-sm" style="margin-bottom: 10px;">AIFs &amp; debt funds</h3>
+        <p class="text-muted" style="font-size: 14px; line-height: 1.55;">Bulk pool subscription with custom mandate parameters — corridor, shipper rating, tenor caps.</p>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 880px) { .lender-grid { grid-template-columns: 1fr !important; } }
+    </style>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section bg-tint" style="border-top: 1px solid var(--line);" data-screen-label="06 CTA">
+  <div class="wrap" style="text-align: center; max-width: 720px;">
+    <h2 class="h-display h-display-lg" style="margin-bottom: 24px;">Schedule a portfolio walkthrough.</h2>
+    <p class="lede lede--center" style="margin-bottom: 36px;">Our capital markets team will share live pool data, historical default curves, and a sample allocation plan tailored to your mandate.</p>
+    <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="#" class="btn btn--accent btn--lg">Talk to capital markets</a>
+      <a href="#" class="btn btn--ghost btn--lg">Download deck (PDF)</a>
+    </div>
+  </div>
+</section>
+`;
+  },
+};

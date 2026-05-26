@@ -1,0 +1,13 @@
+{
+  "name": "logifin",
+  "version": "1.0.0",
+  "description": "LogiFin marketing site — Node + Express, every page rendered from JS modules (no static HTML files).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

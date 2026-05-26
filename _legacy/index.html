@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LogiFin — Fast logistics financing for India's trucking industry</title>
+<meta name="description" content="LogiFin connects load providers, vehicle providers, and lenders on one platform. Invoice financing in 24–48 hours at competitive rates." />
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body data-page="index.html">
+<div id="nav-mount"></div>
+
+<!-- ============================== HERO ============================== -->
+<section class="section bg-soft" style="padding-top: 80px; padding-bottom: 80px; overflow: hidden;" data-screen-label="01 Hero">
+  <div class="wrap">
+    <div style="display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 64px; align-items: center;" class="hero-grid">
+      <div>
+        <span class="chip chip--accent" style="margin-bottom: 24px;">
+          <span style="width:6px;height:6px;border-radius:999px;background:currentColor;display:inline-block;"></span>
+          Now live across 14 states
+        </span>
+        <h1 class="h-display h-display-xl">
+          Capital that moves
+          <span style="display:block; color: var(--accent);">at truck speed.</span>
+        </h1>
+        <p class="lede" style="margin-top: 28px; font-size: 19px;">
+          LogiFin connects load providers, vehicle providers, and lenders on one platform —
+          turning invoices into working capital in <strong style="color:var(--ink); font-weight:500;">24 to 48 hours</strong>, not weeks.
+        </p>
+        <div style="display:flex; gap:12px; margin-top: 36px; flex-wrap: wrap;">
+          <a href="#" class="btn btn--accent btn--lg">
+            Get started
+            <span class="btn-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          </a>
+          <a href="how-it-works.html" class="btn btn--ghost btn--lg">See how it works</a>
+        </div>
+
+        <!-- Trust strip -->
+        <div style="display:flex; align-items:center; gap:18px; margin-top: 44px;">
+          <div style="display:flex;">
+            <div style="width:34px;height:34px;border-radius:999px;background:linear-gradient(135deg,#ffd7a1,#ff9a3c);border:2px solid var(--bg);"></div>
+            <div style="width:34px;height:34px;border-radius:999px;background:linear-gradient(135deg,#a6c5ff,#3b7dff);border:2px solid var(--bg);margin-left:-10px;"></div>
+            <div style="width:34px;height:34px;border-radius:999px;background:linear-gradient(135deg,#b8e8c8,#22a26a);border:2px solid var(--bg);margin-left:-10px;"></div>
+            <div style="width:34px;height:34px;border-radius:999px;background:var(--ink);color:#fff;border:2px solid var(--bg);margin-left:-10px;display:flex;align-items:center;justify-content:center;font-size:11px;font-family:var(--font-mono);">+9k</div>
+          </div>
+          <div style="font-size: 13.5px; color: var(--ink-3); line-height: 1.4;">
+            Trusted by <strong style="color:var(--ink);font-weight:500;">9,400+ trucking businesses</strong><br/>
+            across India's freight corridors.
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero visual: invoice → financed flow card -->
+      <div style="position: relative;">
+        <!-- background blobs -->
+        <div aria-hidden="true" style="position:absolute; inset: -40px; pointer-events:none; z-index:0;">
+          <div style="position:absolute; top:10%; right:5%; width:280px; height:280px; border-radius:50%; background: radial-gradient(circle, rgba(37,87,245,0.18), transparent 70%); filter: blur(20px);"></div>
+          <div style="position:absolute; bottom:5%; left:5%; width:220px; height:220px; border-radius:50%; background: radial-gradient(circle, rgba(14,166,107,0.14), transparent 70%); filter: blur(20px);"></div>
+        </div>
+
+        <div class="card" style="position:relative; padding: 28px; box-shadow: var(--shadow-lg); z-index: 1; transform: rotate(-1.5deg);">
+          <div style="display:flex; justify-content: space-between; align-items: flex-start; margin-bottom: 22px;">
+            <div>
+              <div class="text-mono" style="font-size: 11px; color: var(--ink-3); letter-spacing: 0.1em; text-transform: uppercase;">Invoice</div>
+              <div class="text-mono" style="font-size: 13px; color: var(--ink); margin-top: 4px;">INV-2026-04812</div>
+            </div>
+            <span class="chip chip--success chip--dot">Approved</span>
+          </div>
+
+          <div style="display:flex; align-items:baseline; gap:10px; margin-bottom: 18px;">
+            <div class="stat-num" style="font-size: 54px;">₹4.82L</div>
+            <div class="text-mono text-muted" style="font-size: 12px;">advance amount</div>
+          </div>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 16px; background: var(--bg-2); border-radius: 12px; margin-bottom: 18px;">
+            <div>
+              <div class="stat-label" style="margin-top:0;">From</div>
+              <div style="margin-top: 6px; font-size: 14px; font-weight: 500;">Maruti Logistics</div>
+              <div class="text-muted" style="font-size:12.5px;">Mumbai → Hyderabad</div>
+            </div>
+            <div>
+              <div class="stat-label" style="margin-top:0;">Tenor</div>
+              <div style="margin-top: 6px; font-size: 14px; font-weight: 500;">38 days</div>
+              <div class="text-muted text-mono" style="font-size:12.5px;">@ 11.4% p.a.</div>
+            </div>
+          </div>
+
+          <!-- Status timeline -->
+          <div style="display:flex; justify-content:space-between; position: relative; padding: 4px 0;">
+            <div style="position:absolute; top:50%; left:8px; right:8px; height:2px; background: var(--line); z-index:0;"></div>
+            <div style="position:absolute; top:50%; left:8px; width:66%; height:2px; background: var(--accent); z-index:1;"></div>
+            <div style="position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; gap:8px;">
+              <div style="width:14px;height:14px;border-radius:999px;background:var(--accent);border:3px solid var(--bg);"></div>
+              <span class="text-mono" style="font-size:10px; color: var(--ink-3);">UPLOAD</span>
+            </div>
+            <div style="position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; gap:8px;">
+              <div style="width:14px;height:14px;border-radius:999px;background:var(--accent);border:3px solid var(--bg);"></div>
+              <span class="text-mono" style="font-size:10px; color: var(--ink-3);">VERIFY</span>
+            </div>
+            <div style="position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; gap:8px;">
+              <div style="width:14px;height:14px;border-radius:999px;background:var(--accent);border:3px solid var(--bg);box-shadow: 0 0 0 6px rgba(37,87,245,0.15);"></div>
+              <span class="text-mono" style="font-size:10px; color: var(--ink);">DISBURSE</span>
+            </div>
+            <div style="position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; gap:8px;">
+              <div style="width:14px;height:14px;border-radius:999px;background:#fff;border:2px solid var(--line-strong);"></div>
+              <span class="text-mono" style="font-size:10px; color: var(--ink-3);">SETTLE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating mini-card -->
+        <div class="card" style="position:absolute; bottom: -30px; left: -32px; padding: 14px 18px; box-shadow: var(--shadow-md); z-index: 2; transform: rotate(2deg); display:flex; align-items:center; gap:12px;">
+          <div style="width:36px;height:36px;border-radius:8px;background:var(--success-soft);color:var(--success);display:flex;align-items:center;justify-content:center;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <div>
+            <div style="font-size:13px; font-weight:500;">Disbursed in 31m</div>
+            <div class="text-mono text-muted" style="font-size:11px;">to HDFC ••3421</div>
+          </div>
+        </div>
+
+        <!-- Floating tag -->
+        <div style="position:absolute; top: -16px; right: 12px; z-index: 2; transform: rotate(3deg);">
+          <span class="chip chip--accent" style="box-shadow: var(--shadow-sm); background:#fff;">
+            <span style="width:6px;height:6px;border-radius:999px;background:var(--accent);display:inline-block;"></span>
+            Live deal · 12s ago
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI strip -->
+    <div style="margin-top: 80px; padding-top: 32px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;" class="kpi-strip">
+      <div>
+        <div class="stat-num" style="font-size: clamp(34px, 3.6vw, 48px);">₹25Cr<span style="color: var(--accent);">+</span></div>
+        <div class="stat-label">Financed to date</div>
+      </div>
+      <div>
+        <div class="stat-num" style="font-size: clamp(34px, 3.6vw, 48px);">10,000<span style="color: var(--accent);">+</span></div>
+        <div class="stat-label">Trips completed</div>
+      </div>
+      <div>
+        <div class="stat-num" style="font-size: clamp(34px, 3.6vw, 48px);">8–12<span style="color: var(--accent);">%</span></div>
+        <div class="stat-label">Net returns for lenders</div>
+      </div>
+      <div>
+        <div class="stat-num" style="font-size: clamp(34px, 3.6vw, 48px);">24–48<span class="text-mono" style="color: var(--accent); font-size: 0.6em; margin-left:4px;">HR</span></div>
+        <div class="stat-label">Funding speed</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  @media (max-width: 960px) {
+    .hero-grid { grid-template-columns: 1fr !important; gap: 72px !important; }
+    .kpi-strip { grid-template-columns: 1fr 1fr !important; gap: 32px 24px !important; }
+  }
+</style>
+
+<!-- ============================== LOGO BAR ============================== -->
+<section class="section--xtight" style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--bg);" data-screen-label="02 Trust bar">
+  <div class="wrap">
+    <div style="display:flex; align-items:center; justify-content: space-between; gap: 32px; flex-wrap: wrap;">
+      <span class="text-mono text-muted" style="font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase;">Lending partners &amp; integrations</span>
+      <div style="display:flex; align-items:center; gap: 44px; flex-wrap: wrap; opacity: 0.7;">
+        <span style="font-family: var(--font-display); font-weight: 600; font-size: 18px; letter-spacing: -0.02em;">NorthEdge<span style="color: var(--accent);">.</span>Cap</span>
+        <span style="font-family: var(--font-display); font-weight: 700; font-size: 16px; letter-spacing: 0.1em;">VRIDDHI</span>
+        <span style="font-family: var(--font-display); font-style: italic; font-weight: 500; font-size: 17px;">Bharat Trust</span>
+        <span style="font-family: var(--font-mono); font-weight: 500; font-size: 15px; letter-spacing: -0.02em;">finflow/<span style="color: var(--accent);">in</span></span>
+        <span style="font-family: var(--font-display); font-weight: 600; font-size: 17px;">◆ AxisMile</span>
+        <span style="font-family: var(--font-display); font-weight: 600; font-size: 16px; letter-spacing: -0.02em;">Sahaja NBFC</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== THREE-SIDED MARKETPLACE ============================== -->
+<section class="section" data-screen-label="03 Three sides">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">The marketplace</span>
+      <h2 class="h-display h-display-lg">One platform.<br/>Three sides of the freight economy.</h2>
+      <p class="lede lede--center" style="margin-top: 24px;">
+        For decades, working capital has been the slowest part of Indian trucking. LogiFin connects everyone in the chain so money moves as fast as the goods.
+      </p>
+    </div>
+
+    <!-- Three-sided diagram -->
+    <div class="reveal" style="position: relative; max-width: 1000px; margin: 0 auto 64px;">
+      <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; position: relative; z-index: 2;" class="three-side-grid">
+        <!-- Load providers -->
+        <div class="card card--hover" style="padding: 28px;">
+          <div style="display:flex; align-items:center; gap: 12px; margin-bottom: 18px;">
+            <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); display:flex; align-items:center; justify-content:center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-7m7 5h-7m7 5h-7M3 7h.01M3 12h.01M3 17h.01"/><rect x="2" y="3" width="20" height="18" rx="3"/></svg>
+            </div>
+            <span class="chip">For shippers</span>
+          </div>
+          <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Load providers</h3>
+          <p class="text-muted" style="font-size: 14.5px; line-height: 1.6; margin-bottom: 20px;">
+            Manufacturers, distributors, and 3PLs who pay freight. Post loads, settle invoices on your own terms, and never lose a carrier to slow payments.
+          </p>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px;">
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> Net 30/60/90 without straining your books</li>
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> Vetted carrier network across 14 states</li>
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> One dashboard, every invoice</li>
+          </ul>
+          <a href="shippers.html" style="display:inline-flex; align-items:center; gap:6px; margin-top: 22px; font-size: 14px; font-weight: 500; color: var(--accent);">
+            Explore for shippers
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Vehicle providers -->
+        <div class="card card--hover" style="padding: 28px; border-color: var(--accent); position: relative; box-shadow: var(--shadow-md);">
+          <span class="chip chip--accent" style="position:absolute; top:-12px; left:24px; background:#fff; box-shadow: var(--shadow-sm);">★ Most active</span>
+          <div style="display:flex; align-items:center; gap: 12px; margin-bottom: 18px;">
+            <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--accent); color: #fff; display:flex; align-items:center; justify-content:center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3"/><path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5"/><path d="M14 17h1"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
+            </div>
+            <span class="chip chip--accent">For fleets</span>
+          </div>
+          <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Vehicle providers</h3>
+          <p class="text-muted" style="font-size: 14.5px; line-height: 1.6; margin-bottom: 20px;">
+            Fleet owners and owner-operators. Upload a verified invoice, get up to 90% advance the same day, keep your trucks moving without waiting on payment cycles.
+          </p>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px;">
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> Disbursal in 24–48 hours</li>
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> Up to 90% of invoice, advance</li>
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> Rates from 1.1% per month</li>
+          </ul>
+          <a href="fleets.html" style="display:inline-flex; align-items:center; gap:6px; margin-top: 22px; font-size: 14px; font-weight: 500; color: var(--accent);">
+            Explore for fleets
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Lenders -->
+        <div class="card card--hover" style="padding: 28px;">
+          <div style="display:flex; align-items:center; gap: 12px; margin-bottom: 18px;">
+            <div style="width: 44px; height: 44px; border-radius: 12px; background: var(--success-soft); color: var(--success); display:flex; align-items:center; justify-content:center;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <span class="chip">For capital</span>
+          </div>
+          <h3 class="h-display h-display-md" style="margin-bottom: 12px;">Lenders</h3>
+          <p class="text-muted" style="font-size: 14.5px; line-height: 1.6; margin-bottom: 20px;">
+            NBFCs, family offices, and qualified investors. Deploy capital into vetted, short-duration trade receivables backed by real freight movement.
+          </p>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px;">
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> 8–12% net annualized returns</li>
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> 30–90 day average tenor</li>
+            <li style="display:flex; gap:8px; align-items:center;"><span style="color: var(--success);">✓</span> Pool, GPS, &amp; e-way bill verified</li>
+          </ul>
+          <a href="lenders.html" style="display:inline-flex; align-items:center; gap:6px; margin-top: 22px; font-size: 14px; font-weight: 500; color: var(--accent);">
+            Explore for lenders
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 880px) {
+        .three-side-grid { grid-template-columns: 1fr !important; }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- ============================== HOW IT WORKS ============================== -->
+<section class="section" style="background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);" data-screen-label="04 How it works">
+  <div class="wrap">
+    <div style="display:grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start;" class="how-grid">
+      <div class="reveal">
+        <span class="eyebrow">The flow</span>
+        <h2 class="h-display h-display-lg">From bilty<br/>to bank balance.</h2>
+        <p class="lede" style="margin-top: 24px;">
+          Four steps. No paperwork. Backed by GPS, e-way bills, and partner NBFCs verifying every transaction in real time.
+        </p>
+        <a href="how-it-works.html" class="btn btn--primary" style="margin-top: 32px;">
+          Full breakdown
+          <span class="btn-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+        </a>
+      </div>
+
+      <div class="reveal" style="display:flex; flex-direction: column; gap: 12px;">
+        <!-- Step 1 -->
+        <div class="card" style="padding: 24px 28px; display: grid; grid-template-columns: 60px 1fr auto; gap: 24px; align-items: center;">
+          <div class="text-mono" style="font-size: 36px; font-weight: 500; color: var(--accent); letter-spacing: -0.04em;">01</div>
+          <div>
+            <h4 class="h-display h-display-sm" style="margin-bottom: 4px;">Trip is created &amp; verified</h4>
+            <p class="text-muted" style="font-size: 14px;">Load provider posts a trip. Vehicle assigned. E-way bill &amp; GPS confirmation captured.</p>
+          </div>
+          <div class="text-mono text-muted" style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;">~5 min</div>
+        </div>
+
+        <div style="height: 12px; border-left: 2px dashed var(--line-strong); margin-left: 38px;"></div>
+
+        <!-- Step 2 -->
+        <div class="card" style="padding: 24px 28px; display: grid; grid-template-columns: 60px 1fr auto; gap: 24px; align-items: center;">
+          <div class="text-mono" style="font-size: 36px; font-weight: 500; color: var(--accent); letter-spacing: -0.04em;">02</div>
+          <div>
+            <h4 class="h-display h-display-sm" style="margin-bottom: 4px;">Invoice uploaded</h4>
+            <p class="text-muted" style="font-size: 14px;">Fleet uploads invoice on delivery. LogiFin checks credit, history &amp; concentration risk.</p>
+          </div>
+          <div class="text-mono text-muted" style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;">~15 min</div>
+        </div>
+
+        <div style="height: 12px; border-left: 2px dashed var(--line-strong); margin-left: 38px;"></div>
+
+        <!-- Step 3 -->
+        <div class="card" style="padding: 24px 28px; display: grid; grid-template-columns: 60px 1fr auto; gap: 24px; align-items: center; border-color: var(--accent); box-shadow: var(--shadow-md);">
+          <div class="text-mono" style="font-size: 36px; font-weight: 500; color: var(--accent); letter-spacing: -0.04em;">03</div>
+          <div>
+            <h4 class="h-display h-display-sm" style="margin-bottom: 4px;">Lender funds the invoice</h4>
+            <p class="text-muted" style="font-size: 14px;">Matched lender disburses up to 90% of invoice value directly to the fleet's bank account.</p>
+          </div>
+          <span class="chip chip--accent">24–48h</span>
+        </div>
+
+        <div style="height: 12px; border-left: 2px dashed var(--line-strong); margin-left: 38px;"></div>
+
+        <!-- Step 4 -->
+        <div class="card" style="padding: 24px 28px; display: grid; grid-template-columns: 60px 1fr auto; gap: 24px; align-items: center;">
+          <div class="text-mono" style="font-size: 36px; font-weight: 500; color: var(--accent); letter-spacing: -0.04em;">04</div>
+          <div>
+            <h4 class="h-display h-display-sm" style="margin-bottom: 4px;">Shipper settles, lender earns</h4>
+            <p class="text-muted" style="font-size: 14px;">On due date, the load provider pays LogiFin. Lender receives principal + return. Done.</p>
+          </div>
+          <div class="text-mono text-muted" style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;">30–90 d</div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 960px) {
+        .how-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- ============================== LIVE DEALS / SOCIAL PROOF ============================== -->
+<section class="section" data-screen-label="05 Live deals">
+  <div class="wrap">
+    <div style="display:flex; align-items: end; justify-content: space-between; margin-bottom: 48px; gap: 32px; flex-wrap: wrap;">
+      <div class="reveal" style="max-width: 560px;">
+        <span class="eyebrow">Live on the network</span>
+        <h2 class="h-display h-display-lg">Real money,<br/>moving right now.</h2>
+      </div>
+      <div class="reveal" style="display:flex; align-items: center; gap: 12px;">
+        <span class="chip chip--success chip--dot" style="font-size: 11.5px;">Live</span>
+        <span class="text-mono text-muted" style="font-size: 12.5px;">Updated every 6s · IST 14:22</span>
+      </div>
+    </div>
+
+    <div class="card reveal" style="overflow: hidden;">
+      <!-- Table head -->
+      <div style="display: grid; grid-template-columns: 0.7fr 1.2fr 1fr 0.8fr 0.7fr 0.6fr; gap: 16px; padding: 16px 24px; background: var(--bg-2); border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-3);" class="deals-row">
+        <span>Invoice</span>
+        <span>Route</span>
+        <span>Shipper</span>
+        <span>Amount</span>
+        <span>Tenor / rate</span>
+        <span>Status</span>
+      </div>
+
+      <!-- Rows -->
+      <div class="deals-row" style="display: grid; grid-template-columns: 0.7fr 1.2fr 1fr 0.8fr 0.7fr 0.6fr; gap: 16px; padding: 18px 24px; border-bottom: 1px solid var(--line); align-items: center;">
+        <span class="text-mono" style="font-size: 13px;">04812</span>
+        <span style="font-size: 14px;">Mumbai → Hyderabad</span>
+        <span style="font-size: 14px;">Maruti Logistics</span>
+        <span class="text-mono" style="font-size: 14px; font-weight: 500;">₹4,82,000</span>
+        <span class="text-mono text-muted" style="font-size: 13px;">38d / 11.4%</span>
+        <span><span class="chip chip--success chip--dot" style="font-size: 10.5px;">Funded</span></span>
+      </div>
+      <div class="deals-row" style="display: grid; grid-template-columns: 0.7fr 1.2fr 1fr 0.8fr 0.7fr 0.6fr; gap: 16px; padding: 18px 24px; border-bottom: 1px solid var(--line); align-items: center;">
+        <span class="text-mono" style="font-size: 13px;">04811</span>
+        <span style="font-size: 14px;">Chennai → Bengaluru</span>
+        <span style="font-size: 14px;">Greenfield Foods</span>
+        <span class="text-mono" style="font-size: 14px; font-weight: 500;">₹1,98,500</span>
+        <span class="text-mono text-muted" style="font-size: 13px;">28d / 10.8%</span>
+        <span><span class="chip chip--success chip--dot" style="font-size: 10.5px;">Funded</span></span>
+      </div>
+      <div class="deals-row" style="display: grid; grid-template-columns: 0.7fr 1.2fr 1fr 0.8fr 0.7fr 0.6fr; gap: 16px; padding: 18px 24px; border-bottom: 1px solid var(--line); align-items: center; background: var(--accent-soft);">
+        <span class="text-mono" style="font-size: 13px;">04810</span>
+        <span style="font-size: 14px;">Delhi → Lucknow</span>
+        <span style="font-size: 14px;">Bharat Cement Co.</span>
+        <span class="text-mono" style="font-size: 14px; font-weight: 500;">₹7,15,000</span>
+        <span class="text-mono text-muted" style="font-size: 13px;">45d / 11.9%</span>
+        <span><span class="chip chip--accent chip--dot" style="font-size: 10.5px;">Matching</span></span>
+      </div>
+      <div class="deals-row" style="display: grid; grid-template-columns: 0.7fr 1.2fr 1fr 0.8fr 0.7fr 0.6fr; gap: 16px; padding: 18px 24px; border-bottom: 1px solid var(--line); align-items: center;">
+        <span class="text-mono" style="font-size: 13px;">04809</span>
+        <span style="font-size: 14px;">Pune → Nagpur</span>
+        <span style="font-size: 14px;">Aurobindo Pharma</span>
+        <span class="text-mono" style="font-size: 14px; font-weight: 500;">₹3,41,200</span>
+        <span class="text-mono text-muted" style="font-size: 13px;">32d / 10.5%</span>
+        <span><span class="chip chip--success chip--dot" style="font-size: 10.5px;">Funded</span></span>
+      </div>
+      <div class="deals-row" style="display: grid; grid-template-columns: 0.7fr 1.2fr 1fr 0.8fr 0.7fr 0.6fr; gap: 16px; padding: 18px 24px; align-items: center;">
+        <span class="text-mono" style="font-size: 13px;">04808</span>
+        <span style="font-size: 14px;">Ahmedabad → Indore</span>
+        <span style="font-size: 14px;">Kohinoor Textiles</span>
+        <span class="text-mono" style="font-size: 14px; font-weight: 500;">₹2,67,800</span>
+        <span class="text-mono text-muted" style="font-size: 13px;">35d / 11.1%</span>
+        <span><span class="chip chip--success chip--dot" style="font-size: 10.5px;">Funded</span></span>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 880px) {
+        .deals-row { grid-template-columns: 1fr 1fr !important; row-gap: 6px !important; }
+        .deals-row > span:nth-child(1)::before { content: "Inv "; color: var(--ink-3); }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- ============================== WHY LOGIFIN ============================== -->
+<section class="section bg-deep" data-screen-label="06 Why LogiFin">
+  <div class="wrap">
+    <div class="section-head reveal section-head--left" style="margin-left: 0; text-align: left; max-width: 720px;">
+      <span class="eyebrow" style="color: var(--accent-dim);">Why LogiFin</span>
+      <h2 class="h-display h-display-lg">Built for the way<br/>Indian freight actually moves.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;" class="why-grid reveal">
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent-dim);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="color:#fff; margin-bottom: 12px;">Real-time disbursal</h3>
+        <p style="color: rgba(255,255,255,0.65); font-size: 14.5px; line-height: 1.6;">
+          GPS-verified delivery triggers credit decisioning in minutes. No phone calls, no follow-ups, no &ldquo;come back tomorrow.&rdquo;
+        </p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent-dim);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="color:#fff; margin-bottom: 12px;">Underwritten end-to-end</h3>
+        <p style="color: rgba(255,255,255,0.65); font-size: 14.5px; line-height: 1.6;">
+          Every invoice is matched against e-way bills, GST returns, and shipper credit history before a single rupee moves.
+        </p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent-dim);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="color:#fff; margin-bottom: 12px;">Priced for the corridor</h3>
+        <p style="color: rgba(255,255,255,0.65); font-size: 14.5px; line-height: 1.6;">
+          Rates adjust dynamically by route, shipper rating, and seasonality — not a one-size-fits-all sticker price.
+        </p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent-dim);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="color:#fff; margin-bottom: 12px;">One dashboard, every role</h3>
+        <p style="color: rgba(255,255,255,0.65); font-size: 14.5px; line-height: 1.6;">
+          Same platform whether you're shipping cargo, driving the truck, or deploying capital. No exports, no spreadsheets.
+        </p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent-dim);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><polyline points="21 3 21 8 16 8"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="color:#fff; margin-bottom: 12px;">Revolving line, not a loan</h3>
+        <p style="color: rgba(255,255,255,0.65); font-size: 14.5px; line-height: 1.6;">
+          Build a working capital line that grows with your trip volume. Pay only for what you use.
+        </p>
+      </div>
+      <div class="card" style="padding: 32px;">
+        <div style="width: 44px; height: 44px; border-radius: 12px; background: rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; color: var(--accent-dim);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg>
+        </div>
+        <h3 class="h-display h-display-md" style="color:#fff; margin-bottom: 12px;">Support in 7 languages</h3>
+        <p style="color: rgba(255,255,255,0.65); font-size: 14.5px; line-height: 1.6;">
+          Hindi, Tamil, Telugu, Marathi, Kannada, Gujarati, English. Onboarding agents in 38 cities along major corridors.
+        </p>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 960px) {
+        .why-grid { grid-template-columns: 1fr 1fr !important; }
+      }
+      @media (max-width: 640px) {
+        .why-grid { grid-template-columns: 1fr !important; }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- ============================== TESTIMONIALS ============================== -->
+<section class="section" data-screen-label="07 Testimonials">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">From the corridor</span>
+      <h2 class="h-display h-display-lg">Operators who got<br/>their cash flow back.</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 24px;" class="testimonial-grid reveal">
+      <!-- Featured -->
+      <div class="card" style="padding: 40px; display: flex; flex-direction: column; justify-content: space-between; background: var(--accent-soft); border: none;">
+        <div>
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--accent)" style="opacity: 0.6; margin-bottom: 20px;"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/></svg>
+          <p class="h-display h-display-md" style="line-height: 1.25; margin-bottom: 24px;">
+            We used to wait 60 days for payment. Now we have advance in our account before the truck even reaches the yard. It changed how we run the business.
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap: 14px;">
+          <div style="width: 48px; height: 48px; border-radius: 999px; background: linear-gradient(135deg, #ffd7a1, #ff9a3c); display:flex; align-items:center; justify-content:center; color:#fff; font-family: var(--font-display); font-weight: 600;">RP</div>
+          <div>
+            <div style="font-weight: 500;">Rajesh Pawar</div>
+            <div class="text-muted" style="font-size: 13px;">Owner, Pawar Roadlines · 42 trucks · Pune</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding: 32px; display:flex; flex-direction: column; justify-content: space-between;">
+        <p style="font-size: 17px; line-height: 1.5; margin-bottom: 28px;">
+          The credit decisions are fast and the rates are fair. As a 3PL, predictable payouts to carriers mean we keep our best partners.
+        </p>
+        <div style="display:flex; align-items:center; gap: 14px;">
+          <div style="width: 44px; height: 44px; border-radius: 999px; background: linear-gradient(135deg, #a6c5ff, #3b7dff); display:flex; align-items:center; justify-content:center; color:#fff; font-family: var(--font-display); font-weight: 600;">PS</div>
+          <div>
+            <div style="font-weight: 500;">Priya Sundaram</div>
+            <div class="text-muted" style="font-size: 13px;">Operations Lead · Greenfield 3PL · Chennai</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="padding: 32px; display:flex; flex-direction: column; justify-content: space-between;">
+        <p style="font-size: 17px; line-height: 1.5; margin-bottom: 28px;">
+          As a debt fund, we get exposure to short-tenor receivables with real underwriting. The deal flow and the diligence are what kept us.
+        </p>
+        <div style="display:flex; align-items:center; gap: 14px;">
+          <div style="width: 44px; height: 44px; border-radius: 999px; background: linear-gradient(135deg, #b8e8c8, #22a26a); display:flex; align-items:center; justify-content:center; color:#fff; font-family: var(--font-display); font-weight: 600;">AM</div>
+          <div>
+            <div style="font-weight: 500;">Arjun Malhotra</div>
+            <div class="text-muted" style="font-size: 13px;">Principal · NorthEdge Capital · Mumbai</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 960px) {
+        .testimonial-grid { grid-template-columns: 1fr !important; }
+      }
+    </style>
+  </div>
+</section>
+
+<!-- ============================== FAQ ============================== -->
+<section class="section bg-tint" style="border-top: 1px solid var(--line);" data-screen-label="08 FAQ">
+  <div class="wrap">
+    <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 80px;" class="faq-grid">
+      <div class="reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2 class="h-display h-display-lg">Common<br/>questions.</h2>
+        <p class="text-muted" style="margin-top: 20px; font-size: 15px;">
+          Can't find what you're looking for? <a href="#" style="color: var(--accent); font-weight: 500;">Talk to our team →</a>
+        </p>
+      </div>
+
+      <div class="reveal" style="display: flex; flex-direction: column; gap: 12px;">
+        <details class="card" style="padding: 22px 26px;">
+          <summary style="display:flex; justify-content:space-between; align-items:center; cursor:pointer; list-style: none; font-weight: 500; font-size: 16px;">
+            How fast is funding, really?
+            <span style="font-size: 22px; color: var(--accent);">+</span>
+          </summary>
+          <p style="margin-top: 14px; color: var(--ink-3); font-size: 14.5px; line-height: 1.6;">
+            For first-time invoices on the platform, 24–48 hours from upload to disbursal. Once your business has a verified history, 70% of repeat invoices fund within 4 hours.
+          </p>
+        </details>
+        <details class="card" style="padding: 22px 26px;">
+          <summary style="display:flex; justify-content:space-between; align-items:center; cursor:pointer; list-style: none; font-weight: 500; font-size: 16px;">
+            What does it cost?
+            <span style="font-size: 22px; color: var(--accent);">+</span>
+          </summary>
+          <p style="margin-top: 14px; color: var(--ink-3); font-size: 14.5px; line-height: 1.6;">
+            Rates start at 1.1% per month and depend on shipper rating, route, and tenor. No setup fees, no minimums, no penalty for early settlement.
+          </p>
+        </details>
+        <details class="card" style="padding: 22px 26px;">
+          <summary style="display:flex; justify-content:space-between; align-items:center; cursor:pointer; list-style: none; font-weight: 500; font-size: 16px;">
+            Who actually lends the money?
+            <span style="font-size: 22px; color: var(--accent);">+</span>
+          </summary>
+          <p style="margin-top: 14px; color: var(--ink-3); font-size: 14.5px; line-height: 1.6;">
+            A network of regulated NBFCs, family offices, and qualified institutional investors. LogiFin is the technology and risk layer; capital comes from licensed partners under RBI-compliant structures.
+          </p>
+        </details>
+        <details class="card" style="padding: 22px 26px;">
+          <summary style="display:flex; justify-content:space-between; align-items:center; cursor:pointer; list-style: none; font-weight: 500; font-size: 16px;">
+            What happens if a shipper doesn't pay?
+            <span style="font-size: 22px; color: var(--accent);">+</span>
+          </summary>
+          <p style="margin-top: 14px; color: var(--ink-3); font-size: 14.5px; line-height: 1.6;">
+            We pursue collection through our dedicated recoveries team. Pool-level loss provisioning across lenders means individual exposure stays low. Net default rate on the platform is currently 0.41%.
+          </p>
+        </details>
+        <details class="card" style="padding: 22px 26px;">
+          <summary style="display:flex; justify-content:space-between; align-items:center; cursor:pointer; list-style: none; font-weight: 500; font-size: 16px;">
+            Do I need to be in a specific state?
+            <span style="font-size: 22px; color: var(--accent);">+</span>
+          </summary>
+          <p style="margin-top: 14px; color: var(--ink-3); font-size: 14.5px; line-height: 1.6;">
+            Active in 14 states across India's major freight corridors: Maharashtra, Karnataka, Tamil Nadu, Telangana, Gujarat, Delhi NCR, Uttar Pradesh, Madhya Pradesh, Rajasthan, Haryana, Punjab, West Bengal, Andhra Pradesh, and Kerala.
+          </p>
+        </details>
+      </div>
+    </div>
+
+    <style>
+      @media (max-width: 880px) {
+        .faq-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+      }
+      details summary::-webkit-details-marker { display: none; }
+      details[open] summary span { transform: rotate(45deg); transition: transform .2s; display: inline-block; }
+    </style>
+  </div>
+</section>
+
+<!-- ============================== CTA ============================== -->
+<section class="section bg-deep" style="background-color: var(--ink); background-image: var(--grad-cta);" data-screen-label="09 CTA">
+  <div class="wrap" style="text-align: center; max-width: 800px;">
+    <span class="eyebrow" style="color: var(--accent-dim);">Get started</span>
+    <h2 class="h-display h-display-xl" style="color: #fff; margin-bottom: 28px;">
+      Cash flow shouldn't be the<br/>thing slowing your trucks down.
+    </h2>
+    <p class="lede lede--center" style="color: rgba(255,255,255,0.7); font-size: 18px; margin-bottom: 40px;">
+      Onboard in 15 minutes. First disbursal in 24–48 hours. No long-term contracts.
+    </p>
+    <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="#" class="btn btn--accent btn--lg">
+        Get started free
+        <span class="btn-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+      </a>
+      <a href="#" class="btn btn--ghost btn--lg" style="color:#fff; border-color: rgba(255,255,255,0.25);">Book a 15-min demo</a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-mount"></div>
+<script src="chrome.js"></script>
+</body>
+</html>
