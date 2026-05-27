@@ -25,7 +25,6 @@ function renderNav(currentPage) {
         </a>
         <div class="nav__links">${links}</div>
         <div class="nav__cta">
-          <a href="#" class="btn btn--ghost btn--sm">Sign in</a>
           <a href="https://lf.rollingradius.com/" class="btn btn--primary btn--sm">
             Get started
             <span class="btn-arrow" aria-hidden="true">
