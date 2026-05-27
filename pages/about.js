@@ -178,7 +178,7 @@ the platform.</h2>
 
     <style>
       .team-card { display: flex; flex-direction: column; }
-      .team-photo-wrap { aspect-ratio: 4/5; border-radius: var(--radius-lg); overflow: hidden; background: var(--bg-2); }
+      .team-photo-wrap { aspect-ratio: 4/5; border-radius: var(--radius-lg); overflow: hidden; background: #333333; }
       .team-photo { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
       .team-bio { font-size: 13px; color: var(--ink-3); line-height: 1.55; margin-top: 8px; }
       @media (max-width: 960px) { .team-grid { grid-template-columns: 1fr 1fr !important; } }
