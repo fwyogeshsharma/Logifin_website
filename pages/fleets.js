@@ -1,5 +1,7 @@
 "use strict";
 
+const { mailtoFor } = require("../components/contact");
+
 module.exports = {
   title: "For vehicle providers — LogiFin",
   description:
@@ -188,7 +190,7 @@ module.exports = {
     <p class="lede lede--center" style="color: rgba(255,255,255,0.7); margin-bottom: 36px;">15-minute signup. No upfront fee.</p>
     <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
       <a href="https://lf.rollingradius.com/" class="btn btn--accent btn--lg">Get started</a>
-      <a href="#" class="btn btn--ghost btn--lg" style="color:#fff; border-color: rgba(255,255,255,0.25);">Talk to an agent</a>
+      <a href="${mailtoFor("fleet")}" class="btn btn--ghost btn--lg" style="color:#fff; border-color: rgba(255,255,255,0.25);">Talk to an agent</a>
     </div>
   </div>
 </section>

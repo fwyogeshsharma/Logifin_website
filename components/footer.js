@@ -1,5 +1,7 @@
 "use strict";
 
+const { mailtoFor } = require("./contact");
+
 // Shared site footer.
 function renderFooter() {
   return `
@@ -37,7 +39,7 @@ function renderFooter() {
               <li><a href="/about">About</a></li>
               <li><a href="#">Press</a></li>
               <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="${mailtoFor("general")}">Contact</a></li>
             </ul>
           </div>
           <div class="footer__col">

@@ -1,5 +1,7 @@
 "use strict";
 
+const { mailtoFor } = require("../components/contact");
+
 module.exports = {
   title: "For lenders — LogiFin",
   description:
@@ -20,7 +22,7 @@ module.exports = {
           Deploy capital into vetted, 30–90 day trade receivables backed by real GPS-verified shipments. Net returns of <strong style="color:var(--ink); font-weight:500;">8–12% annualized</strong>, full pool transparency, and pool-level loss provisioning.
         </p>
         <div style="display:flex; gap:12px; margin-top: 36px; flex-wrap: wrap;">
-          <a href="#" class="btn btn--accent btn--lg">Talk to capital markets</a>
+          <a href="${mailtoFor("lender")}" class="btn btn--accent btn--lg">Talk to capital markets</a>
           <a href="#" class="btn btn--ghost btn--lg">Download deck (PDF)</a>
         </div>
       </div>
@@ -252,7 +254,7 @@ module.exports = {
     <h2 class="h-display h-display-lg" style="margin-bottom: 24px;">Schedule a portfolio walkthrough.</h2>
     <p class="lede lede--center" style="margin-bottom: 36px;">Our capital markets team will share live pool data, historical default curves, and a sample allocation plan tailored to your mandate.</p>
     <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-      <a href="#" class="btn btn--accent btn--lg">Talk to capital markets</a>
+      <a href="${mailtoFor("lender")}" class="btn btn--accent btn--lg">Talk to capital markets</a>
       <a href="#" class="btn btn--ghost btn--lg">Download deck (PDF)</a>
     </div>
   </div>

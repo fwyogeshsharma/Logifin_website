@@ -1,5 +1,7 @@
 "use strict";
 
+const { mailtoFor } = require("../components/contact");
+
 module.exports = {
   title: "How it works — LogiFin",
   description:
@@ -326,7 +328,7 @@ module.exports = {
     <p class="lede lede--center" style="margin-bottom: 36px;">Book a 15-minute walkthrough, or start onboarding straight away — both routes get you live this week.</p>
     <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
       <a href="https://lf.rollingradius.com/" class="btn btn--accent btn--lg">Get started</a>
-      <a href="#" class="btn btn--ghost btn--lg">Book a demo</a>
+      <a href="${mailtoFor("home")}" class="btn btn--ghost btn--lg">Book a demo</a>
     </div>
   </div>
 </section>

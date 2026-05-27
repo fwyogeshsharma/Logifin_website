@@ -1,5 +1,7 @@
 "use strict";
 
+const { mailtoFor } = require("../components/contact");
+
 module.exports = {
   title: "For load providers — LogiFin",
   description:
@@ -156,7 +158,7 @@ module.exports = {
     <p class="lede lede--center" style="margin-bottom: 36px;">Onboarding takes 15 minutes. First trip can be posted the same day.</p>
     <div style="display:flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
       <a href="https://lf.rollingradius.com/" class="btn btn--accent btn--lg">Get started</a>
-      <a href="#" class="btn btn--ghost btn--lg">Talk to sales</a>
+      <a href="${mailtoFor("transporter")}" class="btn btn--ghost btn--lg">Talk to sales</a>
     </div>
   </div>
 </section>

@@ -1,5 +1,7 @@
 "use strict";
 
+const { mailtoFor } = require("../components/contact");
+
 module.exports = {
   title: "LogiFin — Fast logistics financing for India's trucking industry",
   description:
@@ -560,7 +562,7 @@ module.exports = {
         <span class="eyebrow">FAQ</span>
         <h2 class="h-display h-display-lg">Common<br/>questions.</h2>
         <p class="text-muted" style="margin-top: 20px; font-size: 15px;">
-          Can't find what you're looking for? <a href="#" style="color: var(--accent); font-weight: 500;">Talk to our team →</a>
+          Can't find what you're looking for? <a href="${mailtoFor("home")}" style="color: var(--accent); font-weight: 500;">Talk to our team →</a>
         </p>
       </div>
 
@@ -638,7 +640,7 @@ module.exports = {
         Get started free
         <span class="btn-arrow"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
       </a>
-      <a href="#" class="btn btn--ghost btn--lg" style="color:#fff; border-color: rgba(255,255,255,0.25);">Book a 15-min demo</a>
+      <a href="${mailtoFor("home")}" class="btn btn--ghost btn--lg" style="color:#fff; border-color: rgba(255,255,255,0.25);">Book a 15-min demo</a>
     </div>
   </div>
 </section>
