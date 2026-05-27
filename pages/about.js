@@ -3,7 +3,7 @@
 module.exports = {
   title: "About — LogiFin",
   description:
-    "LogiFin is rebuilding the financial plumbing of Indian road freight.",
+      "LogiFin is rebuilding the financial plumbing of Indian road freight.",
   render() {
     return `
 <!-- HERO -->
@@ -11,7 +11,8 @@ module.exports = {
   <div class="wrap" style="max-width: 920px;">
     <span class="eyebrow">About LogiFin</span>
     <h1 class="h-display h-display-xl" style="margin-top: 14px;">
-      Rebuilding the financial<br/>plumbing of Indian freight.
+      Rebuilding the financial
+plumbing of Indian freight.
     </h1>
   </div>
 </section>
@@ -22,7 +23,8 @@ module.exports = {
     <div style="display:grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: start;" class="mission-grid">
       <div class="reveal">
         <span class="eyebrow">Our mission</span>
-        <h2 class="h-display h-display-lg" style="margin-top: 12px;">Capital should move<br/>as fast as goods.</h2>
+        <h2 class="h-display h-display-lg" style="margin-top: 12px;">Capital should move
+as fast as goods.</h2>
       </div>
       <div class="reveal">
         <p class="lede" style="margin-bottom: 24px;">
@@ -44,7 +46,8 @@ module.exports = {
   <div class="wrap">
     <div class="section-head reveal section-head--left" style="text-align: left; margin-left: 0;">
       <span class="eyebrow">What we believe</span>
-      <h2 class="h-display h-display-lg" style="margin-top: 12px;">Six principles<br/>we underwrite by.</h2>
+      <h2 class="h-display h-display-lg" style="margin-top: 12px;">Six principles
+we underwrite by.</h2>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;" class="principles-grid reveal">
@@ -93,38 +96,93 @@ module.exports = {
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">The team</span>
-      <h2 class="h-display h-display-lg">Operators and underwriters<br/>who've been in this trade.</h2>
+      <h2 class="h-display h-display-lg">The people behind
+the platform.</h2>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;" class="team-grid reveal">
-      <div>
-        <div style="aspect-ratio: 4/5; background: linear-gradient(135deg, #ffd7a1, #ff9a3c); border-radius: var(--radius-lg); margin-bottom: 18px; display:flex; align-items:flex-end; justify-content:flex-start; padding: 18px; color:#fff; font-family: var(--font-display); font-weight: 600; font-size: 32px;">VS</div>
-        <h4 class="h-display h-display-sm">Vikram Shah</h4>
-        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Co-founder &amp; CEO</div>
-        <div class="text-mono text-muted" style="font-size: 11.5px; margin-top: 6px;">prev. Rivigo, Stride Ventures</div>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;" class="team-grid reveal">
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/alok-pancholi.jpg" alt="Alok Pancholi" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Alok Pancholi</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Founder &amp; CEO</div>
+        <p class="team-bio">25+ years in engineering and management. Distributed systems expert. MS, Texas A&amp;M; B.Tech, IIT-BHU.</p>
       </div>
-      <div>
-        <div style="aspect-ratio: 4/5; background: linear-gradient(135deg, #a6c5ff, #3b7dff); border-radius: var(--radius-lg); margin-bottom: 18px; display:flex; align-items:flex-end; justify-content:flex-start; padding: 18px; color:#fff; font-family: var(--font-display); font-weight: 600; font-size: 32px;">AR</div>
-        <h4 class="h-display h-display-sm">Aanya Rao</h4>
-        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Co-founder &amp; Head of Credit</div>
-        <div class="text-mono text-muted" style="font-size: 11.5px; margin-top: 6px;">prev. Lendingkart, ICICI Bank</div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/yogesh-sharma.jpg" alt="Yogesh Sharma" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Yogesh Sharma</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">SVP, Delivery</div>
+        <p class="team-bio">24+ years in IT. Architect across Java, cloud, AI, and blockchain. MBA, University of Phoenix.</p>
       </div>
-      <div>
-        <div style="aspect-ratio: 4/5; background: linear-gradient(135deg, #b8e8c8, #22a26a); border-radius: var(--radius-lg); margin-bottom: 18px; display:flex; align-items:flex-end; justify-content:flex-start; padding: 18px; color:#fff; font-family: var(--font-display); font-weight: 600; font-size: 32px;">MK</div>
-        <h4 class="h-display h-display-sm">Manav Khanna</h4>
-        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Head of Engineering</div>
-        <div class="text-mono text-muted" style="font-size: 11.5px; margin-top: 6px;">prev. Razorpay, Flipkart</div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/Jeff_Filiault.png" alt="Jeff Filiault" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Jeff Filiault</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Director, Business Development</div>
+        <p class="team-bio">20+ years in sales leadership. Mechanical engineer with AI specialisation. Fluent in English, Spanish, and Mandarin.</p>
       </div>
-      <div>
-        <div style="aspect-ratio: 4/5; background: linear-gradient(135deg, #f3c7e8, #b85ab8); border-radius: var(--radius-lg); margin-bottom: 18px; display:flex; align-items:flex-end; justify-content:flex-start; padding: 18px; color:#fff; font-family: var(--font-display); font-weight: 600; font-size: 32px;">SI</div>
-        <h4 class="h-display h-display-sm">Saira Iyer</h4>
-        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Head of Capital Markets</div>
-        <div class="text-mono text-muted" style="font-size: 11.5px; margin-top: 6px;">prev. Northern Arc, Edelweiss</div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/Mario_Gilbert.jfif" alt="Mario Gilbert" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Mario Gilbert</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Business Development Manager</div>
+        <p class="team-bio">15+ years in business development and inside sales across SaaS, insurance, and services.</p>
       </div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/jaideep-singh.jpg" alt="Jaideep Singh" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Jaideep Singh</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Senior Director, Delivery</div>
+        <p class="team-bio">16+ years in IT. Advanced Certified ScrumMaster and Product Owner. MBA in Information Technology.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/ramsingh-palsaniya.jpg" alt="Ram Singh" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Ram Singh</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Senior Technical Lead</div>
+        <p class="team-bio">13+ years in IT. Data engineering specialist; SnowPro Core and Advanced certified.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/saurabh-jain.jpg" alt="Saurabh Jain" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Saurabh Jain</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Senior Technical Lead</div>
+        <p class="team-bio">17+ years in IT. Java and Spring Boot specialist. Sun Certified Java Programmer, SnowPro Core certified.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="https://www.faberwork.com/static/img/bio/vikas-sharma.jpg" alt="Vikas Sharma" class="team-photo"/>
+        </div>
+        <h4 class="h-display h-display-sm" style="margin-top: 16px;">Vikas Sharma</h4>
+        <div class="text-muted" style="font-size: 13.5px; margin-top: 4px;">Senior Technical Lead</div>
+        <p class="team-bio">15+ years in IT. Systems designer for energy, transportation, and ERP. SnowPro Core certified.</p>
+      </div>
+
     </div>
 
     <style>
+      .team-card { display: flex; flex-direction: column; }
+      .team-photo-wrap { aspect-ratio: 4/5; border-radius: var(--radius-lg); overflow: hidden; background: var(--bg-2); }
+      .team-photo { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+      .team-bio { font-size: 13px; color: var(--ink-3); line-height: 1.55; margin-top: 8px; }
       @media (max-width: 960px) { .team-grid { grid-template-columns: 1fr 1fr !important; } }
+      @media (max-width: 560px) { .team-grid { grid-template-columns: 1fr !important; } }
     </style>
   </div>
 </section>
@@ -135,7 +193,8 @@ module.exports = {
     <div style="display:grid; grid-template-columns: 1fr 1.6fr; gap: 64px; align-items: center;" class="backed-grid">
       <div class="reveal">
         <span class="eyebrow" style="color: var(--accent-dim);">Backed by</span>
-        <h2 class="h-display h-display-lg" style="color:#fff; margin-top: 12px;">Investors who<br/>know freight.</h2>
+        <h2 class="h-display h-display-lg" style="color:#fff; margin-top: 12px;">Investors who
+know freight.</h2>
       </div>
       <div class="reveal" style="display:flex; align-items: center; gap: 56px; flex-wrap: wrap; opacity: 0.85;">
         <span style="font-family: var(--font-display); font-weight: 600; font-size: 22px; color:#fff; letter-spacing: -0.02em;">Peak<span style="color: var(--accent-dim);">XV</span></span>
@@ -160,15 +219,18 @@ module.exports = {
     <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start;" class="contact-grid">
       <div class="reveal">
         <span class="eyebrow">Offices</span>
-        <h2 class="h-display h-display-lg" style="margin-top: 12px;">Find us in Bengaluru<br/>or on a highway.</h2>
+        <h2 class="h-display h-display-lg" style="margin-top: 12px;">Find us in Bengaluru
+or on a highway.</h2>
         <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 18px;">
           <div>
             <div class="text-mono" style="font-size: 12px; color: var(--ink-3); letter-spacing: 0.1em; text-transform: uppercase;">Headquarters</div>
-            <div style="margin-top: 6px; font-size: 15px;">7th floor, Prestige Atlanta<br/>Koramangala 1st Block, Bengaluru 560034</div>
+            <div style="margin-top: 6px; font-size: 15px;">7th floor, Prestige Atlanta
+Koramangala 1st Block, Bengaluru 560034</div>
           </div>
           <div>
             <div class="text-mono" style="font-size: 12px; color: var(--ink-3); letter-spacing: 0.1em; text-transform: uppercase;">Operations centre</div>
-            <div style="margin-top: 6px; font-size: 15px;">B-12, MIDC Industrial Estate<br/>Bhiwandi, Maharashtra 421302</div>
+            <div style="margin-top: 6px; font-size: 15px;">B-12, MIDC Industrial Estate
+Bhiwandi, Maharashtra 421302</div>
           </div>
         </div>
       </div>
